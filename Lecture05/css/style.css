@@ -1,0 +1,35 @@
+
+        #wrap{
+            width: 1000px;
+            padding-left: 60px;
+        }
+        .box{
+            margin-right: 30px;
+        }
+        #first{
+            float:left;
+            border: 1px solid red;
+            width: 300px;
+            height: 600px;
+          
+        }
+        #second{
+            float:left;
+            border: 1px solid green;
+            width: 300px;
+            height: 600px;
+        }
+        #third{
+            float:left;
+            border: 1px solid blue;
+            width: 300px;
+            height: 600px;
+        }
+        .hanoi{
+            text-align: center;
+            
+        }
+        .Init{
+            display: none;
+        }
+ 
