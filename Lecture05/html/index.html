@@ -14,19 +14,11 @@
 
     <button onclick="Init()">초기화</button>
     <br>
-    <div id="wrap">
-        <div id="first" class="box">
-    
-            <p class="hanoi Init">⬛</p>
-            <p class="hanoi Init">🟪🟪🟪</p>
-            <p class="hanoi Init">🟦🟦🟦🟦🟦</p>
-            <p class="hanoi Init">🟩🟩🟩🟩🟩🟩🟩</p>
-            <p class="hanoi Init">🟨🟨🟨🟨🟨🟨🟨🟨🟨</p>
-            <p class="hanoi Init">🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥</p>
-            
+    <div id="wrap"> 
+        <div id="first" class="box" onclick="Focus(0)">
         </div>
-        <div id="second" class="box"></div>
-        <div id="third" class="box"></div>
+        <div id="second" class="box" onclick="Focus(1)"></div>
+        <div id="third" class="box" onclick="Focus(2)"></div>
     </div>
     <script src="../js/Hanoi.js"></script>
 </body>
